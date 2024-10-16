@@ -1,0 +1,757 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-font-family-: "Ubuntu", sans-serif;
+  --main-color-: #1ce682;
+  --font-color-: #f0f8ff;
+  --btn-font-color-: #000000a6;
+}
+
+body {
+  width: 100%;
+  height: fit-content;
+  font-family: var(--main-font-family-);
+}
+
+/* -------------------- Start Section One Style ----------------- */
+
+.secOne {
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.78),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(Images/netflix.jpg) center no-repeat;
+  background-size: cover;
+}
+.logo {
+  font-weight: bold;
+  font-size: 35px;
+  color: var(--main-color-);
+  text-decoration: none;
+}
+.logo:hover {
+  text-decoration: none;
+  color: var(--main-color-);
+}
+header .btns button {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: var(--font-color-);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+header .btns button:hover {
+  opacity: 0.8;
+}
+header .btns .btn1 {
+  outline: 1px solid var(--main-color-);
+}
+header .btns .btn2 {
+  background-color: var(--main-color-);
+  color: var(--btn-font-color-);
+  margin-left: 10px;
+}
+header .loginBtn:hover {
+  text-decoration: none;
+}
+
+.container .box h5 {
+  font-weight: bold;
+  color: var(--font-color-);
+}
+.container .box img {
+  width: 350px;
+  margin: 20px 0;
+}
+.container .box p {
+  color: var(--font-color-);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+.btnnn {
+  width: 60%;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: var(--main-color-);
+  color: var(--btn-font-color-);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btnnn:hover {
+  opacity: 0.7;
+}
+.container .box a {
+  color: var(--font-color-);
+  transition: 0.5s;
+}
+.container .box a:hover {
+  opacity: 0.7;
+}
+.container .box span {
+  color: var(--font-color-);
+  opacity: 0.7;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.welBtn {
+  color: var(--font-color-);
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.welBtn:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: var(--font-color-);
+}
+/* -------------------- End Section One Style ----------------- */
+
+/* -------------------- Start Section Two Style ----------------- */
+.secTwo {
+  width: 100%;
+  height: fit-content;
+}
+.secTwo .top {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(318.68deg, #0f495c, #0d3640 49.72%, #08141f);
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+}
+.secTwo .top img {
+  width: 250px;
+}
+.secTwo .top .title {
+  margin-left: 100px;
+}
+.supHead {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--main-color-);
+}
+.secTwo .top .title p {
+  color: var(--font-color-);
+  font-size: 22px;
+  padding: 15px 20px 10px 0;
+}
+.secTwo .top .title span {
+  font-size: 12px;
+  color: var(--font-color-);
+  opacity: 0.7;
+}
+.secTwo .top .end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 70px;
+}
+.secTwo .top .end button {
+  padding: 20px 25px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--main-color-);
+  color: var(--btn-font-color-);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.secTwo .top .end button:hover {
+  opacity: 0.7;
+}
+.secTwo .top .end a {
+  font-size: 12px;
+  color: var(--font-color-);
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.secTwo .bottom {
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(to bottom, var(--main-color-) 5%, #000000e7 95%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  color: var(--font-color-);
+}
+.secTwo .bottom h3 {
+  color: var(--font-color-);
+  font-weight: 700;
+}
+.secTwo .bottom .bottomBtn {
+  width: 270px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--font-color-);
+  background-color: transparent;
+  outline: none;
+  border: 2px solid var(--font-color-);
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.secTwo .bottom .bottomBtn:hover {
+  background-color: var(--font-color-);
+  color: var(--btn-font-color-);
+}
+/* -------------------- End Section Two Style ----------------- */
+
+/* -------------------- Start Section Three Style ----------------- */
+.secThree {
+  width: 100%;
+  height: 200vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+}
+.secThree .supHead {
+  font-size: 18px;
+}
+.secThree h2 {
+  color: var(--font-color-);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.secThree p {
+  font-size: 18px;
+  color: var(--font-color-);
+  line-height: 1.7;
+  text-align: center;
+}
+.secThree .movieContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin: 100px 0;
+  position: relative;
+}
+.secThree .movieContainer .movieBox {
+  width: 27%;
+  height: 470px;
+  background-color: transparent;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  text-align: left;
+  transition: 0.5s;
+}
+.secThree .movieContainer .movieBox .btnContent {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.secThree .movieContainer .movieBox .btnContent:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.78),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+.secThree .movieContainer .movieBox:hover {
+  outline: 3px solid var(--font-color-);
+}
+.secThree .movieContainer .movieBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.secThree .movieContainer .movieBox img:hover {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.78),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+.secThree .movieContainer .movieBox .head {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.secThree .movieContainer .movieBox .head p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+.secThree .movieContainer .movieBox .head h4 {
+  color: var(--font-color-);
+  font-weight: bold;
+}
+.secThree .movieContainer span {
+  color: #fff;
+  font-size: 12px;
+  opacity: 0.7;
+  position: absolute;
+  bottom: -40px;
+  right: 0px;
+}
+.secThree .supFooter {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secThree .supFooter p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 100px;
+}
+.secThree .supFooter .btnnn {
+  width: 30%;
+}
+.secThree .supFooter span {
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.5;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.secThree .supFooter a {
+  color: var(--font-color-);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* -------------------- End Section Three Style ----------------- */
+
+/* -------------------- Start Section Four Style ----------------- */
+
+.secFour {
+  width: 100%;
+  height: 100vh;
+  background: url(Images/wall.jfif) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.secContainer {
+  width: 600px;
+  height: fit-content;
+  position: absolute;
+  left: 220px;
+  top: 150px;
+}
+.secContainer .buttons {
+  padding: 20px;
+}
+.secContainer .buttons button {
+  font-weight: bold;
+  color: var(--font-color-);
+  opacity: 0.5;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding-right: 20px;
+  transition: 0.5s;
+}
+.secContainer .buttons button:hover {
+  opacity: 0.7;
+}
+.secContainer .buttons .active {
+  opacity: 1;
+}
+.secContainer .buttons .active:hover {
+  opacity: 1;
+}
+.secContainer .buttons .active div {
+  width: 85px;
+  height: 5px;
+  margin-top: 10px;
+  background-color: var(--font-color-);
+}
+.secContainer .middel {
+  padding-left: 20px;
+}
+.secContainer .middel h2 {
+  color: var(--font-color-);
+  font-size: 60px;
+  font-weight: bold;
+}
+.secContainer .middel p {
+  color: var(--font-color-);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px 0 20px;
+}
+.secContainer .bottom .sponsers {
+  width: 70%;
+  padding: 5px 20px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secContainer .bottom .sponsers div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--font-color-);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secContainer .bottom .sponsers div img {
+  width: 100%;
+}
+
+.secContainer .bottom span {
+  color: var(--font-color-);
+  opacity: 0.7;
+  font-size: 14px;
+  padding-left: 20px;
+}
+.secContainer .bottom span a {
+  color: var(--font-color-);
+  text-decoration: underline;
+}
+#hidden {
+  display: none;
+}
+
+/* -------------------- End Section Four Style ----------------- */
+
+/* -------------------- Start Section Five Style ----------------- */
+.secFive {
+  width: 100%;
+  height: fit-content;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 200px;
+  position: relative;
+}
+.secFive h2 {
+  color: var(--font-color-);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.secFive h5 {
+  font-size: 20px;
+  color: var(--font-color-);
+  text-align: center;
+}
+.secFive p {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--font-color-);
+}
+.secFive .planContaniner {
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 35px 0;
+  position: sticky;
+  top: -25px;
+  z-index: 9999999999999999;
+  border-bottom: 1px solid var(--font-color-);
+}
+.secFive .planBox {
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secFive select {
+  background-color: #424957;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.12px;
+  color: #f9f9f9;
+  border-color: #424957;
+  border-radius: 4px;
+  height: 48px;
+  padding: 0 30px 0 10px;
+  cursor: pointer;
+}
+.secFive option {
+  font-weight: normal;
+  display: block;
+  padding-block-start: 0px;
+  padding-block-end: 1px;
+  min-block-size: 1.2em;
+  padding-inline: 2px;
+  white-space: nowrap;
+}
+.secFive .planBox span {
+  padding: 10px;
+  margin: 15px 0;
+  color: var(--btn-font-color-);
+  font-size: 14px;
+  font-weight: 700;
+  background-color: var(--main-color-);
+  border-radius: 15px;
+}
+.secFive .planBox img {
+  width: 150px;
+  margin: 15px 0;
+}
+.secFive .planBox:first-child span {
+  background: none;
+}
+.secFive .planBox p {
+  font-size: 14px;
+  margin: 0;
+}
+.secFive .planBox button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: var(--font-color-);
+  color: var(--btn-font-color-);
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.secFive .planBox button:hover {
+  opacity: 0.7;
+}
+.secFive .planBox h6 {
+  color: var(--font-color-);
+  font-weight: 700;
+  font-size: 14px;
+}
+.secFive .linesBox {
+  width: 100%;
+}
+.secFive .linesBox .line {
+  width: 100%;
+  padding: 20px 25px 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff93;
+}
+.secFive .linesBox .line h3 {
+  width: 30%;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: var(--font-color-);
+  font-weight: normal;
+}
+.secFive .linesBox .line p {
+  width: 25%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.secFive .linesBox .line p span {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.secFive .linesBox .line i {
+  width: 25%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  color: var(--main-color-);
+}
+#dash {
+  color: var(--font-color-);
+}
+.lastLine {
+  width: 100%;
+  padding: 20px 25px 20px 0;
+}
+.lastLine p {
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--font-color-);
+  line-height: 1.4;
+  padding-bottom: 15px;
+}
+.secFive .btnLine {
+  width: 100%;
+  padding: 20px 25px 20px 0;
+  text-align: center;
+  border-top: 1px solid #ffffff93;
+  border-bottom: 1px solid #ffffff93;
+}
+.secFive .btnLine button {
+  outline: none;
+  border: none;
+  background: none;
+  color: var(--font-color-);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.secFive .btnLine .hiddenTitels {
+  text-align: left;
+  display: none;
+}
+.secFive .btnLine .hiddenTitels h4 {
+  color: var(--font-color-);
+  font-size: 35px;
+  font-weight: bold;
+}
+.secFive .btnLine .hiddenTitels p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+#hideBtn {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+/* -------------------- End Section Five Style ----------------- */
+
+/* -------------------- Start Footer Style ----------------- */
+.secSix {
+  width: 100%;
+  height: 90vh;
+  background-color: #e8eaed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 0 0;
+}
+.secSix .topLinksContainer {
+  width: 80%;
+  height: fit-content;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a3a3a3ba;
+}
+.secSix .topLinksContainer h3 {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--btn-font-color-);
+}
+.secSix .topLinksContainer li {
+  list-style: none;
+}
+.secSix .topLinksContainer li a {
+  color: var(--btn-font-color-);
+  opacity: 0.7;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.secSix .topLinksContainer li a:hover {
+  opacity: 1;
+}
+.secSix .topLinksContainer .browseLinks {
+  width: 60%;
+}
+.secSix .topLinksContainer .browseLinks .ulConter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.secSix .topLinksContainer .browseLinks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.secSix .topLinksContainer .helpLinks ul li,
+.secSix .topLinksContainer .aboutLinks ul li {
+  padding-bottom: 10px;
+}
+.middelIcons {
+  width: 80%;
+  padding: 40px 0;
+}
+.middelIcons i {
+  font-size: 25px;
+  opacity: 0.7;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.middelIcons i:hover {
+  opacity: 1;
+}
+.endFooter {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.endFooter a {
+  color: var(--btn-font-color-);
+  opacity: 0.7;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.endFooter a:hover {
+  color: var(--btn-font-color-);
+  opacity: 1;
+}
+/* -------------------- End Footer Style ----------------- */
+
+/* ---------------------- Media Query For Mobile ----------------------- */
+
+@media only screen and (max-width: 786px) {
+  .container {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .secOne {
+    height: fit-content;
+  }
+  .container .box:nth-child(1) {
+    margin-bottom: 50px;
+  }
+  .welBtn {
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-font-family-: "Ubuntu", sans-serif;
+  --main-color-: #1ce682;
+  --font-color-: #f0f8ff;
+  --btn-font-color-: #000000a6;
+}
+
+body {
+  width: 100%;
+  height: fit-content;
+  font-family: var(--main-font-family-);
+  background-image: linear-gradient(330.57deg, #183949 0.29%, #040405 90.62%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 200px;
+  height: 180px;
+}
+
+form {
+  width: 600px;
+  height: fit-content;
+  background-color: var(--font-color-);
+  border-radius: 15px;
+  margin-bottom: 150px;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form .content {
+  width: 85%;
+}
+form .image {
+  width: 200px;
+  height: 100px;
+}
+form .inputContainer {
+  width: 90%;
+  height: fit-content;
+  padding-left: 40px;
+}
+form .inputContainer h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+form .inputContainer p {
+  padding: 15px 0 30px;
+  line-height: 1.4;
+}
+
+/* From Uiverse.io by AbanoubMagdy1 */
+.wave-group {
+  position: relative;
+}
+
+.wave-group .input {
+  font-size: 16px;
+  padding: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #a8a6a649;
+}
+
+.wave-group .label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  top: 20px;
+  display: flex;
+}
+
+.wave-group .label-char {
+  transition: 0.2s ease all;
+  transition-delay: calc(var(--index) * 0.05s);
+}
+
+.wave-group .input:focus ~ label .label-char,
+.wave-group .input:valid ~ label .label-char {
+  transform: translateY(-17px);
+  font-size: 12px;
+  color: var(--btn-font-color-);
+}
+
+.wave-group .bar {
+  position: relative;
+  display: block;
+  width: 200px;
+}
+
+form button {
+  width: 100%;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: #000;
+  color: var(--font-color-);
+  padding: 20px 0;
+  margin: 25px 0;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+form button:hover {
+  opacity: 0.8;
+}
+form .sponsers {
+  width: 100%;
+  border-top: 1px solid #3333333c;
+  padding-left: 40px;
+}
+form .sponsers h5 {
+  font-weight: 600;
+  color: var(--btn-font-color-);
+  padding: 15px 0;
+}
+form .sponsers p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--btn-font-color-);
+  line-height: 1.7;
+  padding-bottom: 20px;
+}
+form .sponsers .sponsersImage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+form .sponsers .sponsersImg img {
+  width: 60px;
+  padding-right: 20px;
+}
+/* ----------------------- Strat Footer Style --------------------- */
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: var(--font-color-);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: var(--btn-font-color-);
+  opacity: 0.8;
+  transition: 0.5s;
+}
+footer a:hover {
+  opacity: 1;
+}
+footer a,
+footer p {
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 30px;
+}
